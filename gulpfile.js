@@ -7,7 +7,7 @@ function comprimeImagens(){
         .pipe(gulp.dest('./dist/images'));
 }
 
-exports.images = comprimeImagens;
+exports.default = comprimeImagens;
 
 /*  tinha colocado
     exports.default = comprimeImagens;
